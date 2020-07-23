@@ -4,8 +4,8 @@
   "metadata" : {
     "annotations" : {
       "app.quarkus.io/vcs-url" : "https://github.com/Stywar/Quakus-security.git",
-      "app.quarkus.io/build-timestamp" : "2020-07-22 - 04:56:38 +0000",
-      "app.quarkus.io/commit-id" : "94aa1f345c3e6d2e423c3011b9ee6fd7551b41e8"
+      "app.quarkus.io/build-timestamp" : "2020-07-23 - 05:39:59 +0000",
+      "app.quarkus.io/commit-id" : "6cb7c92981249384cb76f02a668eebd789fc7bc3"
     },
     "labels" : {
       "app.kubernetes.io/name" : "aforo255-security",
@@ -19,8 +19,8 @@
   "metadata" : {
     "annotations" : {
       "app.quarkus.io/vcs-url" : "https://github.com/Stywar/Quakus-security.git",
-      "app.quarkus.io/build-timestamp" : "2020-07-22 - 04:56:38 +0000",
-      "app.quarkus.io/commit-id" : "94aa1f345c3e6d2e423c3011b9ee6fd7551b41e8"
+      "app.quarkus.io/build-timestamp" : "2020-07-23 - 05:39:59 +0000",
+      "app.quarkus.io/commit-id" : "6cb7c92981249384cb76f02a668eebd789fc7bc3"
     },
     "labels" : {
       "app.kubernetes.io/name" : "aforo255-security",
@@ -31,8 +31,8 @@
   "spec" : {
     "ports" : [ {
       "name" : "http",
-      "port" : 8081,
-      "targetPort" : 8081
+      "port" : 8080,
+      "targetPort" : 8080
     } ],
     "selector" : {
       "app.kubernetes.io/name" : "aforo255-security",
@@ -46,8 +46,8 @@
   "metadata" : {
     "annotations" : {
       "app.quarkus.io/vcs-url" : "https://github.com/Stywar/Quakus-security.git",
-      "app.quarkus.io/build-timestamp" : "2020-07-22 - 04:56:38 +0000",
-      "app.quarkus.io/commit-id" : "94aa1f345c3e6d2e423c3011b9ee6fd7551b41e8"
+      "app.quarkus.io/build-timestamp" : "2020-07-23 - 05:39:59 +0000",
+      "app.quarkus.io/commit-id" : "6cb7c92981249384cb76f02a668eebd789fc7bc3"
     },
     "labels" : {
       "app.kubernetes.io/name" : "aforo255-security",
@@ -67,8 +67,8 @@
       "metadata" : {
         "annotations" : {
           "app.quarkus.io/vcs-url" : "https://github.com/Stywar/Quakus-security.git",
-          "app.quarkus.io/build-timestamp" : "2020-07-22 - 04:56:38 +0000",
-          "app.quarkus.io/commit-id" : "94aa1f345c3e6d2e423c3011b9ee6fd7551b41e8"
+          "app.quarkus.io/build-timestamp" : "2020-07-23 - 05:39:59 +0000",
+          "app.quarkus.io/commit-id" : "6cb7c92981249384cb76f02a668eebd789fc7bc3"
         },
         "labels" : {
           "app.kubernetes.io/name" : "aforo255-security",
@@ -89,7 +89,7 @@
           "imagePullPolicy" : "IfNotPresent",
           "name" : "aforo255-security",
           "ports" : [ {
-            "containerPort" : 8081,
+            "containerPort" : 8080,
             "name" : "http",
             "protocol" : "TCP"
           } ]
