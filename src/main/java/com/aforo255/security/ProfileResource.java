@@ -23,7 +23,7 @@ public class ProfileResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "hello ! how are u ? hiiii";
+        return "hello ! how are u ? hiiii Stywar";
     }
     
     @Inject
