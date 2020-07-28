@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: service-security
-        image: antony0618/aforo255-security:#{Build.BuildId}#
+        image: antony0618/aforo255-security:v2.#{Build.BuildId}#
         ports:
         - containerPort: 8080
       imagePullSecrets:
