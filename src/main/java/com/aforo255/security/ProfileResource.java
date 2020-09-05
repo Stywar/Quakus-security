@@ -23,7 +23,7 @@ public class ProfileResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Mi nombre es Stywar!!!1......";
+        return "Mi nombre es Stywar!!!1...44444...";
     }
     
     @Inject
