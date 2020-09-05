@@ -4,8 +4,8 @@ kind: "ServiceAccount"
 metadata:
   annotations:
     app.quarkus.io/vcs-url: "https://github.com/Stywar/Quakus-security.git"
-    app.quarkus.io/build-timestamp: "2020-09-05 - 22:23:04 +0000"
-    app.quarkus.io/commit-id: "e7dc91bfe55cff82c250b35969065bddb02a9c2c"
+    app.quarkus.io/build-timestamp: "2020-09-05 - 23:13:24 +0000"
+    app.quarkus.io/commit-id: "154fff251aa6b46e152d155a1f8c6ada1a344e79"
   labels:
     app.kubernetes.io/name: "aforo255-security"
     app.kubernetes.io/version: "1.0.0-SNAPSHOT"
@@ -16,8 +16,8 @@ kind: "Service"
 metadata:
   annotations:
     app.quarkus.io/vcs-url: "https://github.com/Stywar/Quakus-security.git"
-    app.quarkus.io/build-timestamp: "2020-09-05 - 22:23:04 +0000"
-    app.quarkus.io/commit-id: "e7dc91bfe55cff82c250b35969065bddb02a9c2c"
+    app.quarkus.io/build-timestamp: "2020-09-05 - 23:13:24 +0000"
+    app.quarkus.io/commit-id: "154fff251aa6b46e152d155a1f8c6ada1a344e79"
   labels:
     app.kubernetes.io/name: "aforo255-security"
     app.kubernetes.io/version: "1.0.0-SNAPSHOT"
@@ -37,8 +37,8 @@ kind: "Deployment"
 metadata:
   annotations:
     app.quarkus.io/vcs-url: "https://github.com/Stywar/Quakus-security.git"
-    app.quarkus.io/build-timestamp: "2020-09-05 - 22:23:04 +0000"
-    app.quarkus.io/commit-id: "e7dc91bfe55cff82c250b35969065bddb02a9c2c"
+    app.quarkus.io/build-timestamp: "2020-09-05 - 23:13:24 +0000"
+    app.quarkus.io/commit-id: "154fff251aa6b46e152d155a1f8c6ada1a344e79"
   labels:
     app.kubernetes.io/name: "aforo255-security"
     app.kubernetes.io/version: "1.0.0-SNAPSHOT"
@@ -53,8 +53,8 @@ spec:
     metadata:
       annotations:
         app.quarkus.io/vcs-url: "https://github.com/Stywar/Quakus-security.git"
-        app.quarkus.io/build-timestamp: "2020-09-05 - 22:23:04 +0000"
-        app.quarkus.io/commit-id: "e7dc91bfe55cff82c250b35969065bddb02a9c2c"
+        app.quarkus.io/build-timestamp: "2020-09-05 - 23:13:24 +0000"
+        app.quarkus.io/commit-id: "154fff251aa6b46e152d155a1f8c6ada1a344e79"
       labels:
         app.kubernetes.io/name: "aforo255-security"
         app.kubernetes.io/version: "1.0.0-SNAPSHOT"
