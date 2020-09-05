@@ -1,4 +1,5 @@
 com\aforo255\security\ProfileResource$1.class
 com\aforo255\security\service\TokenService.class
 com\aforo255\security\ProfileResource.class
+META-INF\panache-archive.marker
 com\aforo255\security\jwt\utils\TokenUtils.class

@@ -23,7 +23,7 @@ public class ProfileResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "hello ! how are u ? hiiii Stywar hh";
+        return "Mi nombre es Stywar";
     }
     
     @Inject
@@ -33,10 +33,13 @@ public class ProfileResource {
     @Produces(MediaType.APPLICATION_JSON)
     @PermitAll
     public HashMap<String, String> register(@QueryParam("username") String username,
-                           @QueryParam("email") String email,
-                           @QueryParam("birthdate") String birthdate) {
+                           @QueryParam("password") String password
+                           ) {
+    	
+    	String email = "ObtenerBD";
+    	// Tarea para los alumnos ,obtener el email de BD . 
 
-        final String token = service.generateToken(email, username, birthdate);
+        final String token = service.generateToken(username,email);
         return new HashMap<String, String>() {{
             put("token", token);
         }};
